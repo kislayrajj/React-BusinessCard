@@ -1,10 +1,12 @@
 import React from 'react'
 
+
 const MainContent= () => {
     return (
-      <div className='p-3 m-1  text-white'>
-        
-    <div className='pt-1'>About</div>
+      <div className='p-3 m-1  text-white' >
+
+       
+    <div className='pt-1 '>About</div>
     <div className='text-xs mt-1'>Hello! I'm someone who's deeply passionate about crafting solutions that truly make a difference, driven by a desire to positively impact lives.</div>
      <div className='pt-2 '>Interests</div>
      <div className='text-xs mt-1'>As a web developer, I'm passionate about coding, UX design, problem-solving, and staying updated with tech trends.</div>
