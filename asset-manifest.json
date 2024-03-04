@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/kislayrajj/React-BusinessCard/static/css/main.586ade4f.css",
+    "main.js": "/kislayrajj/React-BusinessCard/static/js/main.86cb4a54.js",
+    "static/js/453.17882521.chunk.js": "/kislayrajj/React-BusinessCard/static/js/453.17882521.chunk.js",
+    "static/media/krmoon.jpg": "/kislayrajj/React-BusinessCard/static/media/krmoon.79cd1a11735d5cfb888f.jpg",
+    "index.html": "/kislayrajj/React-BusinessCard/index.html",
+    "main.586ade4f.css.map": "/kislayrajj/React-BusinessCard/static/css/main.586ade4f.css.map",
+    "main.86cb4a54.js.map": "/kislayrajj/React-BusinessCard/static/js/main.86cb4a54.js.map",
+    "453.17882521.chunk.js.map": "/kislayrajj/React-BusinessCard/static/js/453.17882521.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.586ade4f.css",
+    "static/js/main.86cb4a54.js"
+  ]
+}
