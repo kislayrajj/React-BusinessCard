@@ -13,8 +13,9 @@ const Header = () => {
       </div>
       <div className="job text-xs text-sky-200 mt-1">Web Developer</div>
       <div className="buttons m-2 ">
-        <button className=" mr-4 border-2 border-transparent pl-2 pr-2 rounded-sm text-black bg-white text-sm"><i class="fa-solid fa-envelope text-sm pr-2"></i>Email</button>
-        <button className="ml-4 border-2 border-transparent pl-2 pr-2 rounded-sm text-white bg-blue-800 text-sm"><i class="fa-brands fa-linkedin text-sm pr-2"></i>LinkedIn</button>
+       <a href="mailto:kislayraj751@gmail.com?subject=Subject&body=Hello%20Kislay"><button className=" mr-4 border-2 border-transparent pl-2 pr-2 rounded-sm text-black bg-white text-sm"><i class="fa-solid fa-envelope text-sm pr-2"></i>Email</button></a> 
+      <a href="https://www.linkedin.com/in/kislay-raj-b462502a6/"> <button className="ml-4 border-2 border-transparent pl-2 pr-2 rounded-sm text-white bg-blue-800 text-sm"><i class="fa-brands fa-linkedin text-sm pr-2"></i>LinkedIn</button></a> 
+      
       </div>
       </header>
     </div>
