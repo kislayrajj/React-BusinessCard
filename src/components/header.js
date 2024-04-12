@@ -1,5 +1,5 @@
 import React from "react";
-import dp from "../images/krmoon.jpg"
+import dp from "../images/ReactCard-Thumb2c.png.jpg"
 
 const Header = () => {
   return (
