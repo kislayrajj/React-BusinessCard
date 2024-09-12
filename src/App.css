@@ -1,44 +1,59 @@
-
-html {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  background-image: radial-gradient(circle at top right, rgb(36, 9, 119) 0%, rgb(36, 9, 119) 48%,rgb(72, 7, 149) 48%, rgb(72, 7, 149) 53%,rgb(109, 5, 178) 53%, rgb(109, 5, 178) 56%,rgb(145, 2, 208) 56%, rgb(145, 2, 208) 69%,rgb(181, 0, 237) 69%, rgb(181, 0, 237) 100%);
-
+body {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-image: radial-gradient(
+    circle at top right,
+    rgb(36, 9, 119) 0%,
+    rgb(36, 9, 119) 48%,
+    rgb(72, 7, 149) 48%,
+    rgb(72, 7, 149) 53%,
+    rgb(109, 5, 178) 53%,
+    rgb(109, 5, 178) 56%,
+    rgb(145, 2, 208) 56%,
+    rgb(145, 2, 208) 69%,
+    rgb(181, 0, 237) 69%,
+    rgb(181, 0, 237) 100%
+  );
+  overflow: hidden;
+background-size: 100%;
+transition: background-size 0.8s cubic-bezier(0.24, 0.1,0.25,1),
+transform 0.8s cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 
+body:hover {
+background-size: 120%;
+transform: scale(1.02);
+}
 
-
-.dp{
-
+.dp {
   box-shadow: 0 0 50px 15px #315061;
 }
 
-.follow{
-
-
-animation: animate 3s linear infinite;
-text-shadow: 0 0 50px #0072ff, 0 0 100px #0072ff, 0 0 150px #0072ff,
-  0 0 200px #0072ff;
+.follow {
+  animation: animate 3s linear infinite;
+  text-shadow: 0 0 50px #0072ff, 0 0 100px #0072ff, 0 0 150px #0072ff,
+    0 0 200px #0072ff;
 }
-.fb{
-animation: animate 3s linear infinite;
+.fb {
+  animation: animate 3s linear infinite;
 }
 .twitter {
-animation: animate 3s linear 0.3s infinite;
+  animation: animate 3s linear 0.3s infinite;
 }
 .git {
-animation: animate 3s linear 0.7s infinite;
+  animation: animate 3s linear 0.7s infinite;
 }
 .insta {
-animation: animate 3s linear infinite;
+  animation: animate 3s linear infinite;
 }
 
 @keyframes animate {
-from {
-  filter: hue-rotate(0deg);
+  from {
+    filter: hue-rotate(0deg);
+  }
+  to {
+    filter: hue-rotate(360deg);
+  }
 }
-to {
-  filter: hue-rotate(360deg);
-}
-}
-
