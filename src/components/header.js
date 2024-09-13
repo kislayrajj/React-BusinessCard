@@ -10,7 +10,7 @@ const Header = () => {
             <img src={dp} alt="profile" className="dp object-cover" />
           </div>
         </div>
-        <div className="name font-semibold">Kislay Raj</div>
+        <div className="name font-semibold">Wolverine</div>
         <div className="job text-xs text-sky-200 mt-1">Web Developer</div>
         <div className="buttons m-2 flex items-center justify-center gap-5 ">
           <div className="bg-white text-black">
